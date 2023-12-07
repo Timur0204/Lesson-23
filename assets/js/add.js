@@ -2,9 +2,6 @@
    let roundsLeft = 10;
    let secretNumber = gen();
    
-   const oneImage = document.getElementById("oneImage");
-   const twoImage = document.getElementById("twoImage");
-   const threeImage = document.getElementById("threeImage");
    
    function gen() {
        let n = Math.random();
